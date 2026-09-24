@@ -45,3 +45,78 @@ The solution separates data preparation and analytical processing from visualiza
 Python is used for data cleaning, transformation, KPI calculations, validation, auditing, and preparation of historical datasets.
 
 Power BI is used for data modeling, interactive analysis, visualization, and operational dashboards.
+
+---
+
+## Data Pipeline
+
+The project follows a structured data pipeline that separates data processing from visualization.
+
+```text
+┌─────────────────────────┐
+│   Raw Operational Data  │
+│                         │
+│ • Process records       │
+│ • Downtime records      │
+│ • Beam ON records       │
+│ • Master log            │
+│ • Time records          │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│         Python          │
+│                         │
+│ • Data cleaning         │
+│ • Transformation        │
+│ • KPI calculations      │
+│ • Data validation       │
+│ • Operational audits    │
+│ • Historical processing │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ Prepared Analytical     │
+│ Data                    │
+│                         │
+│ • Historical datasets   │
+│ • Monthly KPIs          │
+│ • Service times         │
+│ • Downtime data         │
+│ • Audit results         │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│       Power BI          │
+│                         │
+│ • Data modeling         │
+│ • DAX measures          │
+│ • Interactive filters   │
+│ • KPI visualization     │
+│ • Pareto analysis       │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│   Operational Insights  │
+│                         │
+│ • Performance           │
+│ • Downtime              │
+│ • Production            │
+│ • Data quality          │
+└─────────────────────────┘
+```
+
+---
+
+## Analytical Focus
+
+The solution focuses on five main analytical areas:
+
+- **Operational Performance** — Monitoring process efficiency and performance indicators.
+- **Downtime Analysis** — Identifying and analyzing process interruptions and their impact.
+- **Production Analysis** — Monitoring treated loads and operational activity.
+- **Data Quality** — Detecting incomplete or missing operational records.
+- **Historical Analysis** — Preparing structured datasets for monthly and historical comparison.
