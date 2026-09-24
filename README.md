@@ -204,3 +204,36 @@ The project follows a separation of responsibilities between data processing and
 | **Python** | Data preparation, transformation, validation, auditing, and analytical calculations |
 | **Prepared datasets** | Structured historical and analytical data |
 | **Power BI** | Data modeling, interactive analysis, visualization, and reporting |
+
+---
+
+## Project Structure
+
+```text
+eBeam-Operational-Analytics/
+│
+├── README.md
+├── .gitignore
+│
+├── python/
+│   └── operational_analytics.py
+│
+├── data/
+│   └── sample_data/
+│
+├── powerbi/
+│   └── dashboard_screenshots/
+│
+└── documentation/
+    ├── architecture.png
+    └── data_model.png
+```
+
+### Directory Overview
+
+| Directory | Description |
+|---|---|
+| `python/` | Python scripts used for data processing and analysis |
+| `data/sample_data/` | Anonymized or synthetic datasets for demonstration purposes |
+| `powerbi/` | Power BI dashboard screenshots and related public materials |
+| `documentation/` | Project architecture, data model, and supporting documentation |
