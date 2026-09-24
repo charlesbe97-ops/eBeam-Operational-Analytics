@@ -174,3 +174,33 @@ The project includes operational audits designed to identify:
 - Data registration issues by operator.
 
 This makes data quality part of the analytical process rather than a separate administrative activity.
+
+---
+
+## Technology Stack
+
+### Data Processing & Analysis
+
+- **Python** — Data processing, transformation, validation, KPI calculations, and analytical workflows.
+- **Pandas** — Data cleaning, manipulation, aggregation, and preparation of analytical datasets.
+- **NumPy** — Numerical operations and supporting calculations.
+- **Matplotlib** — Exploratory data analysis and data visualization during the development process.
+
+### Business Intelligence
+
+- **Power BI** — Data modeling, interactive dashboards, KPI monitoring, trend analysis, and operational reporting.
+- **DAX** — Measures and calculations used within the Power BI analytical model.
+
+### Data Storage & Exchange
+
+- **CSV** — Structured storage and exchange of processed datasets between the Python pipeline and Power BI.
+
+### Development Approach
+
+The project follows a separation of responsibilities between data processing and visualization:
+
+| Layer | Main responsibility |
+|---|---|
+| **Python** | Data preparation, transformation, validation, auditing, and analytical calculations |
+| **Prepared datasets** | Structured historical and analytical data |
+| **Power BI** | Data modeling, interactive analysis, visualization, and reporting |
