@@ -120,3 +120,57 @@ The solution focuses on five main analytical areas:
 - **Production Analysis** — Monitoring treated loads and operational activity.
 - **Data Quality** — Detecting incomplete or missing operational records.
 - **Historical Analysis** — Preparing structured datasets for monthly and historical comparison.
+
+---
+
+## KPIs & Analytics
+
+The project calculates and analyzes a set of operational performance indicators designed to provide a comprehensive view of the industrial process.
+
+### Operational Performance
+
+- **Availability** — Measures the proportion of scheduled operational time that remains available after accounting for downtime.
+- **Utilization** — Measures the use of available operational capacity based on actual beam-on time.
+- **Performance** — Compares actual process performance against theoretical process performance.
+- **Efficiency** — Evaluates how effectively the process uses its available operational time.
+- **Quality** — Measures the proportion of processed services completed without requiring reprocessing.
+- **OEE** — Combines Availability, Performance, and Quality into an overall equipment effectiveness indicator.
+- **IGE** — Provides an overall operational performance indicator combining the main process efficiency dimensions.
+
+### Production & Process Analysis
+
+The solution also analyzes:
+
+- Treated pallets by service.
+- Processing time by service.
+- Process execution time.
+- Beam ON time.
+- Process fragmentation and operational efficiency.
+- Monthly operational activity.
+
+### Downtime Analysis
+
+Downtime is analyzed using both frequency and duration:
+
+- Number of downtime events.
+- Total downtime hours.
+- Interlock events.
+- Stop reasons.
+- Pareto analysis by event frequency.
+- Pareto analysis by accumulated downtime.
+
+This allows operational interruptions to be analyzed from both a frequency and impact perspective.
+
+### Data Quality Analysis
+
+Data quality is incorporated directly into the analytics workflow.
+
+The project includes operational audits designed to identify:
+
+- Missing process records.
+- Incomplete operational fields.
+- Missing downtime information.
+- Incomplete master log records.
+- Data registration issues by operator.
+
+This makes data quality part of the analytical process rather than a separate administrative activity.
