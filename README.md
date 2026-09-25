@@ -237,3 +237,17 @@ eBeam-Operational-Analytics/
 | `data/sample_data/` | Anonymized or synthetic datasets for demonstration purposes |
 | `powerbi/` | Power BI dashboard screenshots and related public materials |
 | `documentation/` | Project architecture, data model, and supporting documentation |
+
+## Dashboard Preview
+
+### Monthly Overview
+
+![Monthly Overview](powerbi/dashboard_screenshots/monthlyoverview.png)
+
+### Downtime Analysis
+
+![Downtime Analysis](powerbi/dashboard_screenshots/downtimeanalysis.png)
+
+### Process Off Button Analysis
+
+![Process Off Button](powerbi/dashboard_screenshots/processoffbutton.png)
