@@ -251,3 +251,89 @@ eBeam-Operational-Analytics/
 ### Process Off Button Analysis
 
 ![Process Off Button](powerbi/dashboard_screenshots/processoffbutton.png)
+
+
+---
+
+## Project Results
+
+The solution provides a structured operational analytics environment that transforms raw operational records into consistent performance indicators and interactive analysis.
+
+### Operational Performance Monitoring
+
+The dashboard provides a consolidated view of the main operational indicators, including:
+
+- Availability.
+- Utilization.
+- Performance.
+- Efficiency.
+- Quality.
+- OEE.
+- IGE.
+- Treated pallets.
+
+Monthly KPI values can be analyzed together with daily performance trends.
+
+### Downtime Analysis
+
+Downtime can be analyzed from two complementary perspectives:
+
+- **Frequency** — How often each type of interruption occurs.
+- **Duration** — How much operational time each interruption represents.
+
+Pareto analysis is used to identify the categories that contribute most to event frequency and accumulated downtime.
+
+### Process Interruption Analysis
+
+The Process Off Button analysis provides a detailed view of manually recorded process interruptions.
+
+The analysis includes:
+
+- Stop frequency by reason.
+- Downtime duration by reason.
+- Cumulative contribution.
+- Pareto analysis based on frequency.
+- Pareto analysis based on downtime.
+
+This provides a structured way to identify the operational categories that account for the largest share of interruptions.
+
+### Production & Service Analysis
+
+The solution also provides service-level analysis of:
+
+- Processing time.
+- Treated pallets.
+- Operational activity by service or product category.
+- Monthly operational activity.
+
+### Data Quality Monitoring
+
+The analytical pipeline incorporates data-quality audits before information is used for historical analysis.
+
+The audit layer helps identify:
+
+- Missing operational fields.
+- Incomplete process records.
+- Missing downtime information.
+- Incomplete master-log records.
+- Registration issues associated with operational records.
+
+### Analytical Outcome
+
+The final solution connects operational data preparation with Business Intelligence:
+
+```text
+Operational Records
+        ↓
+Data Preparation & Validation
+        ↓
+KPI Calculation
+        ↓
+Historical Analytical Data
+        ↓
+Power BI Model
+        ↓
+Interactive Operational Analysis
+```
+
+The result is a reproducible workflow for transforming operational records into structured information for performance monitoring, downtime analysis, production analysis, and data-quality assessment.
